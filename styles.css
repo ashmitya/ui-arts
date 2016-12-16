@@ -60,11 +60,11 @@
     color: white;
 }
 
-// @media (max-width: 750px) {
-// 	.exp-info__details h1{
-// 		font-size:2em;
-// 	}
-// }
+@media (max-width: 750px) {
+	.exp-info__details h1{
+		font-size:2em;
+	}
+}
 
 
 @media (max-width: 500px) {
