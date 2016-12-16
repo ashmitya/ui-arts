@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,900');
+
+
+.exp-page{
+	position:relative; 
+	font-family: 'Lato', sans-serif;
+}
+
+.exp-grey-band{
+	height:10vh;
+	width:95%;
+	background-color: #f6f6f6;
+	
+	position:absolute;
+	right:0;
+	z-index:0;
+}
+
+.exp-info{
+	position:absolute;
+	top: 3vh;
+    left: 1%;
+    right:1%;
+	z-index:1;
+	
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+
+.exp-info__img{
+	background-image: url("img/bg-amundsen.jpg");
+	background-size: cover;
+	height: 80vh;
+	width: 60%;
+}
+
+.exp-info__details{
+	width:35%;
+}
+
+.exp-info__details h1{
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size:3em;
+	position:relative;
+	left:-25%;
+}
+
+.exp-info__details p{
+	color:grey;
+    margin: 10% 0%;
+}
+
+.exp-info__details a{
+	background-color: #e21710;
+	padding: 2% 4%;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+// @media (max-width: 750px) {
+// 	.exp-info__details h1{
+// 		font-size:2em;
+// 	}
+// }
+
+
+@media (max-width: 500px) {
+	.exp-info__img{
+		display:none;
+	}
+
+	.exp-info{
+		min-width:320px;
+	}
+
+	.exp-info__details{
+		width:100%;
+		height:100vh;
+		background-image: url("img/bg-amundsen.jpg");
+		background-size: cover;
+		padding: 2% 4%;
+	}
+	.exp-info__details h1{
+		position:static;
+	}
+	.exp-info__details p{
+		color:#636363;
+	}
+}
