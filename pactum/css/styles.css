@@ -63,6 +63,11 @@ body{
 	width: 45%;
 }
 
+.p-main__section a{
+	color: black;
+    font-weight: bold;
+}
+
 .p-main__section h1{
 	text-transform: uppercase;
 	font-size: 8vw;
