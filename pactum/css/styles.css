@@ -11,7 +11,7 @@ body{
 }
 
 .logo{
-	width:30%;
+	width:20%;
 }
 
 .contacts{
@@ -26,6 +26,7 @@ body{
 	justify-content:space-around;
 	align-items:center;
 	width:200px;
+	font-size: 16px;
 }
 
 .contacts--detail img{
@@ -54,27 +55,22 @@ body{
 }
 
 .p-main__section h1{
-	// font-family: 'gilroyextrabold';
+	font-family: 'gilroyextrabold';
 	text-transform: uppercase;
-	font-size: 8ex;
+	font-size: 105.1px;
 	line-height: 100%;
     margin: 0;
     text-align: right;
 }
 
 .p-main__section h2{
-	// font-family: 'gilroyextrabold';
-	font-size: 4.5ex;
+	font-family: 'gilroyextrabold';
+	font-size: 72px;
 	line-height: 84%;
 }
 
-.p-main__section h2{
-	font-size: 3ex;
-	line-height: 100%;
-}
-
 .vertical-line{
-	width: 2px;
+	width: 6px;
 	background-color:black;
     align-self: stretch;
     margin:0% 2%;
@@ -84,6 +80,9 @@ body{
 
 @media screen and (max-width: 634px) {
 
+	.logo{
+		width:30%;
+	}
 	.p-main{
 		display: flex;
 		flex-direction:column;
