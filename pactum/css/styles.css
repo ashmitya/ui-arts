@@ -115,7 +115,7 @@ body{
 	}
 }
 
-@media screen and (max-height: 689px) {
+@media screen and (min-height: 689px) {
 	.p-main{
 		margin-top:50%;
 	}
