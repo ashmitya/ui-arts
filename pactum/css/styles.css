@@ -2,9 +2,6 @@ body{
 	margin:0% 5%;
 	min-width:370px;
 	height:100%;	
-	display: flex;
-	flex-direction:column;
-	justify-content:space-between;
 }
 
 .p-header{
@@ -29,8 +26,6 @@ body{
 	display: flex;
 	justify-content:space-around;
 	align-items:center;
-	// width:200px;
-	// font-size: 16px;
 	width:300px;
 	font-size: 24px;
 }
@@ -45,6 +40,7 @@ body{
     align-items: center;
     height: 452px;
     font-family: 'Open Sans', sans-serif;
+    margin-top:5%;
 }
 
 .p-main__section{
@@ -116,5 +112,11 @@ body{
 
 	.contacts--detail{
     	justify-content: space-between;
+	}
+}
+
+@media screen and (max-height: 689px) {
+	.p-main{
+		margin-top:50%;
 	}
 }
