@@ -114,9 +114,3 @@ body{
     	justify-content: space-between;
 	}
 }
-
-@media screen and (min-height: 689px) {
-	.p-main{
-		margin-top:50%;
-	}
-}
