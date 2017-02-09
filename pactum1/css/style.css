@@ -11,7 +11,7 @@
   text-align: right;
 }
 .contacts--detail img {
-  margin-right: 30px;
+  margin-right: 15px;
 }
 .line {
   width: 6px;
@@ -43,7 +43,7 @@
   font-size: 72px;
   line-height: 84%;
 }
-@media (max-width: 970px) {
+@media (max-width: 993px) {
   .p-main {
     margin-top: 5%;
   }
